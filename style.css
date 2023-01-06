@@ -117,7 +117,7 @@
 
 .my-plan {
 
-      margin: 100px 230px;
+      margin: 100px 20%;
 
 }
 
@@ -153,11 +153,41 @@
 /*--------------------- mindset section------------------- */
 
 .mindset {
-      background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),  url(images/watch.png);
+      background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
       width: 1140px;
       height: 300px;
       /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
       border-radius: 8px;
       margin: 50px auto;
 
+}
+.mindset-text{
+      margin-left: 50px;
+      padding-top: 60px;
+      margin-right: 55%;
+
+
+}
+
+.mindset-title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #FFFFFF;
+}
+
+.mindset-button {
+      width: 140px;
+      height: 54px;
+      border-radius: 10px;
+      border: 0;
+      margin-top: 25px;
+      
+
+
+}
+.mindset-button a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 400;
 }
