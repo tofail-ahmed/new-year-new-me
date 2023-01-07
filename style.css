@@ -76,6 +76,7 @@
 .failure-image {
       width: 100%;
       padding-left: 100px;
+      margin-right: 100px;
 }
 
 .failure-text {
