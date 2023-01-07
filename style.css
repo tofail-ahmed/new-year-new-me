@@ -161,7 +161,8 @@
       margin: 50px auto;
 
 }
-.mindset-text{
+
+.mindset-text {
       margin-left: 50px;
       padding-top: 60px;
       margin-right: 55%;
@@ -181,13 +182,88 @@
       border-radius: 10px;
       border: 0;
       margin-top: 25px;
-      
+
 
 
 }
-.mindset-button a{
+
+.mindset-button a {
       text-decoration: none;
       color: black;
       font-size: 20px;
       font-weight: 400;
+}
+
+
+/*------------------------- footer section--------------------- */
+
+.footer {
+      display: flex;
+      background-color: black;
+      width: 100%;
+
+}
+
+.future {
+      width: 50%;
+      margin-left: 20%;
+
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+}
+
+.future-title {
+      color: white;
+      font-weight: 700;
+      font-size: 45px;
+}
+
+.future-description,
+.future-email,
+.future-phone {
+      color: white;
+      font-weight: 400;
+      font-size: 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+}
+
+.subscribe {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-left: 200px;
+      gap: 40px;
+}
+
+.subscribe-title {
+      color: white;
+      font-weight: 600;
+      font-size: 25px;
+}
+
+.subscribe-email {
+      width: 280px;
+      height: 24px;
+      padding: 20px;
+      color: #afacac;
+      font-weight: 600;
+      font-size: 20px;
+      background-color: black;
+}
+
+.subscribe-btn {
+      width: 150.11px;
+      height: 44px;
+      border-radius: 10px;
+}
+.subscribe-btn a{
+      text-decoration: none;
+      color: #F15B22;
+      font-size: 18px;
+      font-weight: 600;
 }
